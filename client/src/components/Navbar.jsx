@@ -5,8 +5,8 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 export default function NavigationBar() {
   return (
-    <div className="navbar">
-      <Navbar bg="light" expand="lg">
+    <div>
+      <Navbar className="Navbar" size="lg">
         <Container>
           <Navbar.Brand href="#home">
             <h3>CompanyProfile</h3>
